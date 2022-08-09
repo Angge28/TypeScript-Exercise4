@@ -16,4 +16,5 @@ const moveZeros = (array) => {
     console.log(array); // print all elements in the array
 };
 exports.moveZeros = moveZeros;
-(0, exports.moveZeros)([false, 1, 0, 1, 2, 0, 1, 3, "a"]); // pass an array as argument and call out the function
+//moveZeros([false, 1, 0, 1, 2, 0, 1, 3, "a"]);
+(0, exports.moveZeros)([1, false, 0, 0, 4, 0, 0, 3, 2]);
